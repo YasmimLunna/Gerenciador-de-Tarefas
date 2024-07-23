@@ -131,6 +131,12 @@ main {
     justify-content: space-between;
 }
 
+.tarefa-de-todo-contener {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tarefa-lista,
 .tarefa-detalhe {
     width: 48%;
@@ -246,6 +252,7 @@ main {
     font-weight: 600;
     margin-bottom: 10px;
     justify-content: center;
+    align-items: center;
 }
 
 .tarefa-detalhe p {
