@@ -279,6 +279,7 @@ main {
     font-weight: 600;
     margin-right: 10px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 178px;
