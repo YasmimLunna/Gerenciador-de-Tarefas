@@ -225,6 +225,7 @@ main {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
     width: 30%;
     display: flex;
     justify-content: center;
@@ -277,6 +278,7 @@ main {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
     margin-right: 10px;
     display: flex;
     flex-direction: row;
