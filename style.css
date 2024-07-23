@@ -110,6 +110,12 @@ main {
     justify-content: center;
 }
 
+.tarefa-secao {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
 .teste {
     display: flex;
     flex-direction: row;
