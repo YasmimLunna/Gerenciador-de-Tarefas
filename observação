@@ -1,0 +1,32 @@
+CSS
+.material-symbols-outlined {
+   margin-right: 10px; 
+}
+
+.menu-texto {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0267FF;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* cor do icone de editar e remover */
+color: #0225FF;
+
+.botao-deletar:hover, 
+.botao-editar:hover {
+    background-color: #0267FF;
+    color: #FFFFFF;
+    border-color: #0267FF;
+}
+
+.material-symbols-outlined {
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px 50px;
+}
