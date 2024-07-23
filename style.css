@@ -115,11 +115,6 @@ main {
     flex-direction: row;
 }
 
-.tarefa-secao {
-    display: flex;
-    justify-content: space-between;
-}
-
 .tarefa-container {
     background-color: #F5F8FF;
     border-radius: 10px;
