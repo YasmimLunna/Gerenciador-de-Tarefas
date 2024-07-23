@@ -49,7 +49,7 @@ body {
 
 /*CONTENT Minhas Tarefas*/
 .menu-item {
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@ body {
     background-color:#FFFFFF; 
     color: #0267FF;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .material-symbols-outlined {
@@ -74,8 +74,8 @@ body {
     font-weight: 500;
     color: #0267FF;
     background-color: #FFFFFF;
-    padding: 10px;
-    border-radius: 4px;
+    padding: 3px;
+    border-radius: 10px;
 }
 
 .button__menu-mobile {
