@@ -59,12 +59,14 @@ body {
     color: #0267FF;
     border: none;
     border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+    width: 80%;
 }
 
 .menu-texto {
     font-size: 16px;
     font-weight: 500;
-    padding: 3px;
     background-color:#FFFFFF; 
     color: #0267FF;
     display: flex;
@@ -114,11 +116,11 @@ main {
     display: flex;
     justify-content: space-between;
     margin-right: 20px;
+    gap:20px;
 }
 
-.teste {
+.titulo-inicio {
     display: flex;
-    flex-direction: row;
 }
 
 .tarefa-container {
@@ -133,7 +135,8 @@ main {
 
 .tarefa-lista,
 .tarefa-detalhe {
-    width: 48%;
+    width: 85%;
+    
 }
 
 .tarefa-lista h2 {
@@ -143,7 +146,6 @@ main {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 20px;
 }
 
 .tarefa {
@@ -233,12 +235,12 @@ main {
 }
 
 .tarefa-container-2 {
+    display: flex;
+    justify-content: center;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 20px;
     width: 80%;
-    display: flex;
-    justify-content: space-between;
     border: 2px solid #A1A3AB;
 }
 
@@ -284,8 +286,17 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 30%;
     text-align: center;
     text-decoration: none;
+    width: 35%;
+    height: 40px;
     transition: background-color 0.3s, color 0.3s;
+    gap: 5px;
+}
+
+.btn-tarefas{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
 }
