@@ -6,6 +6,7 @@
     --cor-botao: #0267FF;
     --cor-secundaria: #A1A3AB;
     --cor-hover: #0056b3;
+    --cor-pendente: #f44336;
    
     --fonte-principal: 'Inter', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
@@ -180,6 +181,13 @@ main {
     margin-bottom: 10px;
 }
 
+.status-pendente {
+    color: var(--cor-pendente);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
 .status {
     font-weight: 600;
 }
@@ -200,7 +208,6 @@ main {
     gap: 10px;
     height: 40px;
 }
-
 
 /* modal de adicionar*/
 .modal {
