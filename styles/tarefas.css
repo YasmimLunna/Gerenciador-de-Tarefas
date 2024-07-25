@@ -6,6 +6,7 @@
     --cor-botao: #0267FF;
     --cor-secundaria: #A1A3AB;
     --cor-hover: #0056b3;
+    --cor-pendente: #f44336;
    
     --fonte-principal: 'Inter', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
@@ -81,7 +82,6 @@ body {
     margin-right: 10px;
 }
 
-
 .tarefa-container-2 {
     display: flex;
     justify-content: center;
@@ -106,10 +106,16 @@ body {
     margin-bottom: 10px;
 }
 
+.status-pendente {
+    color: var(--cor-pendente);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
 .status {
     font-weight: 600;
 }
-
 
 .App {
     background: var(--cor-fundo);
@@ -184,7 +190,6 @@ button:hover {
     border: 2px solid var(--cor-secundaria);
     border-radius: 16px;
     margin-bottom: 20px;
-    
 }
 
 #task-list{
