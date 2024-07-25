@@ -113,6 +113,13 @@ body {
     margin-bottom: 10px;
 }
 
+.tarefa-status-texto pending {
+    color: var(--cor-pendente);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
 .status {
     font-weight: 600;
 }
