@@ -17,6 +17,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#formato{
     display: flex;
 }
 
@@ -160,6 +163,7 @@ button {
 button:hover {
     background: var(--cor-hover);
 }
+
 
 .filters {
     margin: 20px;
@@ -305,7 +309,36 @@ button:hover {
     margin-bottom: auto;
 }
 
+.add-tarefa-botao {
+    background-color: var(--cor-botao);
+    color: var(--cor-fundo);
+    border: none;
+    border-radius: 10px;
+    padding: 9px 9px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    margin: 20px;
+}
 
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-fundo);
+    background-color: var(--cor-hover);
+    padding: 1%;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 50px;
 
-
-
+}

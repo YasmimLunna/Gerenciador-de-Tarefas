@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Tarefas</title>
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/tarefas.css">
 </head>
 <body>
+    
+<section id="formato">    
     <header class="menu">
         <div class="perfil">
             <img src="assets/profile.svg" alt="Foto de Perfil do Trilheiro usando chapeu preto, ele é branco com cabelos loiros enrolados, usando uma camisa cinza" class="perfil_foto">
@@ -31,10 +32,10 @@
         <nav class="menu__mobile invisible">
             <ul class="menu__mobile__lista">
                 <li class="menu__mobile__lista__item">
-                    <a class="menu__menu__link" href="#index.html">Minhas Tarefas</a>
+                    <a class="menu__menu__link" href="index.html">Minhas Tarefas</a>
                 </li>
                 <li class="menu__mobile__lista__item">
-                    <a class="menu__menu__link" href="#tarefas.html">Minhas Tarefas</a>
+                    <a class="menu__menu__link" href="tarefas.html">Minhas Tarefas</a>
                 </li>
             </ul>
         </nav>
@@ -45,12 +46,20 @@
                 <button id="filter-all">Todas</button>
                 <button id="filter-completed">Concluídas</button>
                 <button id="filter-pending">Pendentes</button>
-                <button id="add-task-button">Adicionar Tarefa</button>
             </div>
+            <button id="add-task-button" class="add-tarefa-botao">
+                <img src="assets/adicionar.svg"/>
+                <p>Adicionar Tarefa</p>
+            </button>
             <ul id="task-list" class="task-list"></ul>
         </main>
         
     </div>
+</section>
+    <footer class="rodape">
+        <p>Desenvolvido por Trilheiros</p>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
