@@ -3,7 +3,7 @@ Gerenciador-de-Tarefas
 É um app de gerenciamento de tarefas (To-Do List) com interface moderna e intuitiva
 
 🖥️: https://yasmimlunna.github.io/Gerenciador-de-Tarefas/
-![gerenciador de tarefas](https://github.com/user-attachments/assets/0a2b0a97-9f58-4537-bc57-2ce3675c0b2f)
+![Dashboard_ Gereciador-tarefas](https://github.com/user-attachments/assets/cf02aeca-7446-4b72-b0c5-4ca3a73d5def)
 
 💡 O Projeto |
 
