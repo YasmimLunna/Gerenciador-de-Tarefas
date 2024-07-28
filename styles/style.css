@@ -18,15 +18,29 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-#formato{
+#formato {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 /* MAIN CONTENT */
 main {
     flex: 1;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
 }
 
 .main-titulo {
@@ -42,9 +56,10 @@ main {
 
 .tarefa-secao {
     display: flex;
-    justify-content: space-between;
-    margin-right: 20px;
-    gap:20px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
 }
 
 .titulo-inicio {
@@ -117,7 +132,11 @@ button:hover {
 
 
 .filters {
-    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
 }
 
 .filters button {
@@ -127,9 +146,8 @@ button:hover {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-right: 10px;
-    transition: background-color 0.3s ease;
-}
+    width: calc(50% - 20px);
+    max-width: 200px;
 
 .filters button.active {
     background-color: var(--cor-hover);
@@ -138,7 +156,6 @@ button:hover {
 .filters button:hover {
     background-color: var(--cor-hover);
 }
-
 
 /* tarefas para menu */
 #task-list{
@@ -282,7 +299,8 @@ button:hover {
     align-items: center;
     gap: 10px;
     height: 40px;
-}
+    width: calc(50% - 20px);
+    max-width: 200px;
 
 /* modal de adicionar*/
 .modal {

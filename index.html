@@ -14,7 +14,6 @@
 <section id="formato">
     <header class="menu">
         <div class="perfil">
-            
             <header class="menu">
                 <div class="perfil">
                     <div class="perfil_info">
@@ -25,37 +24,35 @@
                     </div>
                 </div>
             </header>
-            
         </div>
     </header>    
 
-    <main>
+    <main class="main-container">
         <h1 class="main-titulo">Gerenciador de Tarefas</h1>
         <div class="tarefa-secao">
             <div class="tarefa-container">
                 <div class="tarefa-lista">
-
-                    <main>
-                        <div class="filters">
-                            <button id="filter-all">Todas</button>
-                            <button id="filter-completed">Concluídas</button>
-                            <button id="filter-pending">Pendentes</button>
-                        </div>
-                        <button id="add-task-button" class="add-tarefa-botao">
-                            <img src="assets/adicionar.svg"/>
-                            <p>Adicionar Tarefa</p>
-                        </button>
-                        <ul id="task-list" class="task-list"></ul>  
-                    </main>
-
-            </div>        
+                    <div class="filters">
+                        <button id="filter-all">Todas</button>
+                        <button id="filter-completed">Concluídas</button>
+                        <button id="filter-pending">Pendentes</button>
+                    </div>
+                    <button id="add-task-button" class="add-tarefa-botao">
+                        <img src="assets/adicionar.svg"/>
+                        <p>Adicionar Tarefa</p>
+                    </button>
+                    <ul id="task-list" class="task-list"></ul>  
+                </div>        
+            </div>
         </div>            
+    </main>
 
     <footer class="rodape">
        <p>DESENVOLVIDO  POR GABRIEL SILVA, KAYO VINICIUS E YASMIM LUNA</p>
     </footer>
+</section>
     
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
         
 </body>
 </html>
