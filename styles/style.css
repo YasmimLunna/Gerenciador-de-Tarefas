@@ -7,6 +7,7 @@
     --cor-secundaria: #A1A3AB;
     --cor-hover: #0056b3;
     --cor-pendente: #f44336;
+    --cor-slogan: #FFFFFF;
    
     --fonte-principal: 'Inter', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
@@ -22,13 +23,14 @@ body {
 #formato{
     display: flex;
 }
+
 /* MAIN CONTENT */
 main {
     flex: 1;
 }
 
 .main-titulo {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria);  /* Gerenciador de Tarefas */
     font-style: normal;      
     font-size: 2rem;
     font-weight: 700;
@@ -75,6 +77,68 @@ main {
     align-items: center;
     flex-direction: row;
 }
+
+.App {
+    background: var(--cor-fundo);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: var(--cor-fundo);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--cor-hover);
+}
+
+
+.filters {
+    margin: 20px;
+}
+
+.filters button {
+    background-color: var(--cor-botao);
+    color: var(--cor-fundo);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.filters button.active {
+    background-color: var(--cor-hover);
+}
+
+.filters button:hover {
+    background-color: var(--cor-hover);
+}
+
 
 /* tarefas para menu */
 #task-list{

@@ -7,7 +7,6 @@
     <title>Gerenciador de Tarefas</title>
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/style.css">
-
 </head>
 
 <body>
@@ -15,72 +14,43 @@
 <section id="formato">
     <header class="menu">
         <div class="perfil">
-            <img src="assets/profile.svg" alt="Foto de Perfil do Trilheiro usando chapeu preto, ele é branco com cabelos loiros enrolados, usando uma camisa cinza" class="perfil_foto">
+            
             <div class="perfil_info">
-                <p><span class="perfil_nome">Trilheiros</span></p>
-                <p><span class="perfil_email">trilheiros@gmail.com</span></p>
+                <p><span class="texto_menu">Planeje seus dias</span></p>
+                <p><span class="texto_menu">com eficiência nas suas</span></p>
+                <p><span class="texto_menu">tarefas diárias e constantes!</span></p>
+                <img src="assets/mocotempo.svg" alt="Imagem de um menino no computador com uma camisa vermelha e atrá tem uma ampulheta vermelha." class="perfil_foto">
             </div>
         </div>
-        <a href="index.html" class="menu-item">
-            <img src="assets/home.svg"/>
-            <span class="menu-texto">Início</span>
-        </a>
-        <a href="tarefas.html" class="menu-item">
-            <img src="assets/tarefas.svg"/>
-            <span class="menu-texto">Minhas Tarefas</span>
-        </a>
-        <button class="button__menu-mobile">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <nav class="menu__mobile invisible">
-            <ul class="menu__mobile__lista">
-                <li class="menu__mobile__lista__item">
-                    <a class="menu__menu__link" href="#index.html">Minhas Tarefas</a>
-                </li>
-                <li class="menu__mobile__lista__item">
-                    <a class="menu__menu__link" href="#tarefas.html">Minhas Tarefas</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    </header>    
 
     <main>
         <h1 class="main-titulo">Gerenciador de Tarefas</h1>
         <div class="tarefa-secao">
             <div class="tarefa-container">
                 <div class="tarefa-lista">
-                    <div class="titulo-inicio">
-                        <img src="assets/pending.svg" class="logo" />
-                        <h2>Tarefas</h2>
-                    </div>
-                    <div class="botao-adicionar">
+
+                    <main>
+                        <div class="filters">
+                            <button id="filter-all">Todas</button>
+                            <button id="filter-completed">Concluídas</button>
+                            <button id="filter-pending">Pendentes</button>
+                        </div>
                         <button id="add-task-button" class="add-tarefa-botao">
                             <img src="assets/adicionar.svg"/>
                             <p>Adicionar Tarefa</p>
                         </button>
-                    </div>
-                    <ul id="task-list" class="task-list"></ul>
-                </div>
-            </div>
+                        <ul id="task-list" class="task-list"></ul>  
+                    </main>
 
-            <div class="tarefa-container-2">
-                <div id="tarefa-detalhe" class="tarefa-detalhe">
-                    <p><strong>Task Title:</strong></p>
-                    <p><strong>Task Description:</strong></p>
-                    <p><strong>Final da Tarefa:</strong></p>
-                    <p><strong>Status:</strong> <span class="status-pendente">Pendente</span></p>
-                </div>
-            </div>
-        </div>
-    </main>
-</section>
+            </div>        
+        </div>            
 
     <footer class="rodape">
-        <p>Desenvolvido por Trilheiros</p>
+       <p>DESENVOLVIDO  POR GABRIEL SILVA, KAYO VINICIUS E YASMIM LUNA</p>
     </footer>
-
-    <script src="js/script.js"></script>
     
-
+    <script src="js/script.js"></script>
+        
 </body>
 </html>
