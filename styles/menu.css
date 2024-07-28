@@ -44,7 +44,7 @@
 
 .texto_menu {
     font-family: var(--fonte-principal);
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     color: var(--cor-slogan);
     text-align: center;
@@ -52,7 +52,7 @@
 
 .texto_menu p {
     font-family: var(--fonte-principal);
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     color: var(--cor-slogan);
     text-align: center;
