@@ -81,25 +81,11 @@ main {
     
 }
 
-.tarefa-lista h2 {
-    font-size: 30px;
-    font-weight: 500;
-    color: var(--cor-botao);
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
 .App {
     background: var(--cor-fundo);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     width: 80%;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 form {
@@ -127,7 +113,6 @@ button:hover {
     background: var(--cor-hover);
 }
 
-
 .filters {
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +130,7 @@ button:hover {
     cursor: pointer;
     width: calc(50% - 20px);
     max-width: 200px;
+}
 
 .filters button.active {
     background-color: var(--cor-hover);
@@ -155,7 +141,7 @@ button:hover {
 }
 
 /* tarefas para menu */
-#task-list{
+#task-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -298,6 +284,7 @@ button:hover {
     height: 40px;
     width: calc(50% - 20px);
     max-width: 200px;
+}
 
 /* modal de adicionar*/
 .modal {
