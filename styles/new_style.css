@@ -95,7 +95,7 @@ body {
 
 .rodape {
     color: var(--cor-fundo);
-    background-color: var(--cor-hover);
+    background: var(--cor-hover);
     padding: 1%;
     font-family: var(--fonte-secundaria);
     font-size: 1.2rem;
