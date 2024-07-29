@@ -1,3 +1,15 @@
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-botao: #0267FF;
+    --cor-secundaria: #A1A3AB;
+    --cor-hover: #0056b3;
+    --cor-pendente: #f44336;
+    --cor-slogan: #FFFFFF;
+   
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -82,6 +94,7 @@ body {
 }
 
 .rodape {
+    color: var(--cor-fundo);
     background-color: var(--cor-hover);
     padding: 1%;
     font-family: var(--fonte-secundaria);
