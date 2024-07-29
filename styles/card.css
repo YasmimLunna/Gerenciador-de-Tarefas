@@ -1,0 +1,79 @@
+.card {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+}
+
+.card-pendente {
+    background-color: red;
+}
+
+.card-concluida {
+    background-color: green;
+}
+
+.tarefa-status {
+    margin-bottom: 8px;
+}
+
+.tarefa-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.tarefa-titulo {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.tarefa-resumo {
+    margin-bottom: 8px;
+}
+
+.tarefa-status-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.tarefa-status-texto {
+    margin-right: 8px;
+}
+
+.tarefa-deadline {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.delete-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #888;
+}
+
+.delete-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button img.delete-icon {
+    filter: brightness(0) saturate(100%) invert(29%) sepia(96%) saturate(7487%) hue-rotate(357deg) brightness(93%) contrast(105%);
+}
+
+.delete-button:hover {
+    color: #f00;
+}

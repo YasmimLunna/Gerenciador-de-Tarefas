@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="styles/new_menu.css">
+    <link rel="stylesheet" href="styles/new_style.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/popup.css">
+
+</head>
+<body>
+    <div class="flex-container">
+        <header class="menu">
+            <div class="perfil">
+                <div class="perfil_info">
+                    <p class="texto_menu">Planeje seus dias</p>
+                    <p class="texto_menu">com eficiência nas suas</p>
+                    <p class="texto_menu">tarefas diárias e constantes!</p>
+                    <img src="assets/mocotempo.svg" alt="Imagem de um menino no computador com uma camisa vermelha e atrá tem uma ampulheta vermelha." class="perfil_foto">
+                </div>
+            </div>
+        </header>    
+    
+        <main class="main-container">
+            <h1 class="main-titulo">Gerenciador de Tarefas</h1>
+            <div class="tarefa-secao">
+                <div class="tarefa-container">
+                    <div class="tarefa-lista">
+                        <div class="filters">
+                            <button id="filter-all">Todas</button>
+                            <button id="filter-completed">
+                                <img src="assets/icons/task_alt.svg" alt="Concluídas" class="button-icon"/> Concluídas
+                            </button>
+                            <button id="filter-pending">
+                                <img src="assets/icons/pending_actions.svg" alt="Pendentes" class="button-icon"/> Pendentes
+                            </button>
+                            <button id="add-task-button" class="button-icon">
+                                <img src="assets/icons/add_task.svg" alt="Adicionar" class="button-icon"/>
+                                <p>Adicionar Tarefa</p>
+                            </button>
+                        </div>
+                        <ul id="task-list" class="task-list"></ul>  
+                    </div>        
+                </div>
+            </div>            
+        </main>
+    </div>
+    <script src="js/task_manager.js"></script>
+    <script src="js/new_script.js"></script>
+
+</body>
+</html>
