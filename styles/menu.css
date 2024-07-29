@@ -62,9 +62,11 @@
     font-weight: 500;
     color: var(--cor-slogan);
     text-align: center;
+    line-height: 0.1;
 }
 
 .perfil_foto {
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
