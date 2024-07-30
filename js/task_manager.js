@@ -45,9 +45,14 @@ const taskManager = (tasks, taskList, tarefaDetalhe) => {
             taskDeadline.classList.add('tarefa-deadline');
 
             const dueDateObj = new Date(task.dueDate);
-            const formattedDueDate = `${dueDateObj.getDate()}/${dueDateObj.getMonth() + 1}/${dueDateObj.getFullYear()}`;
+            const day = String(dueDateObj.getUTCDate()).padStart(2, '0');
+            const month = String(dueDateObj.getUTCMonth() + 1).padStart(2, '0');
+            const year = dueDateObj.getUTCFullYear();
 
-            taskDeadline.textContent = ` Fim: ${formattedDueDate}`;
+            const formattedDueDate = `${day}/${month}/${year}`;
+
+            taskDeadline.textContent = `Fim: ${formattedDueDate}`;
+
             taskStatusLabel.appendChild(taskDeadline);
 
             taskInfo.appendChild(taskStatusLabel);

@@ -1,7 +1,7 @@
 .card {
     border: 2px solid #ccc;
     border-radius: 12px;
-    padding: 16px;
+    padding: 20px;
     margin: 8px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -29,10 +29,16 @@
 .tarefa-titulo {
     font-size: 1.2em;
     margin-bottom: 8px;
+    word-break: break-all;
+    text-align: left;
+    float: left;
 }
 
 .tarefa-resumo {
     margin-bottom: 8px;
+    word-break: break-all;
+    text-align: left;
+    float: left;
 }
 
 .tarefa-status-label {
@@ -70,7 +76,6 @@
 }
 
 .edit-button {
-   
     top: 8px;
     right: 8px;
     background: none;
@@ -86,4 +91,4 @@
 
 .edit-button:hover {
     color: #f00;
-}
+}  
