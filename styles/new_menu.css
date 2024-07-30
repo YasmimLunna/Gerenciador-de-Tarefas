@@ -13,16 +13,6 @@
     --fonte-secundaria: 'Roboto', sans-serif;
 }
 
-/* .menu {
-    background-color: #007bff;
-    padding: 20px;
-    text-align: left;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
 .menu {
     width: 30%;
     display: flex;

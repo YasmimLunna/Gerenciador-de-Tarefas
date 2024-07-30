@@ -61,6 +61,14 @@ const taskManager = (tasks, taskList, tarefaDetalhe) => {
             });
             taskElement.appendChild(changeStatusButton);
 
+            const editButton = document.createElement('button');
+            editButton.classList.add('edit-button');
+            editButton.innerHTML = '<img src="assets/editar.svg" alt="Edit" class="edit-icon">'; 
+            editButton.addEventListener('click', () => {
+                showModal(index);
+            });
+            taskElement.appendChild(editButton);
+
             const deleteButton = document.createElement('button');
             deleteButton.classList.add('delete-button');
             // deleteButton.innerHTML = '🗑️';
@@ -98,6 +106,14 @@ const taskManager = (tasks, taskList, tarefaDetalhe) => {
         tasks.splice(index, 1);
         saveTasks();
         renderTasks();
+    };
+
+    const closeModal = () => {
+        const modal = document.querySelector('.modal');
+        if (modal) {
+            document.body.removeChild(modal);
+        }
+        currentIndex = -1;
     };
 
     const showModal = (index) => {

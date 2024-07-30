@@ -61,19 +61,29 @@
     color: #888;
 }
 
-.delete-button {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
 .delete-button img.delete-icon {
     filter: brightness(0) saturate(100%) invert(29%) sepia(96%) saturate(7487%) hue-rotate(357deg) brightness(93%) contrast(105%);
 }
 
 .delete-button:hover {
+    color: #f00;
+}
+
+.edit-button {
+   
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #888;
+}
+
+.edit-button img.edit-icon {
+    filter: brightness(0) saturate(100%) invert(29%) sepia(96%) saturate(7487%) hue-rotate(357deg) brightness(93%) contrast(105%);
+}
+
+.edit-button:hover {
     color: #f00;
 }
