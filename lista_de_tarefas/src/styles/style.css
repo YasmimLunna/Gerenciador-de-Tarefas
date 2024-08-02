@@ -1,0 +1,106 @@
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-botao: #0267FF;
+    --cor-secundaria: #A1A3AB;
+    --cor-hover: #0056b3;
+    --cor-pendente: #f44336;
+    --cor-slogan: #FFFFFF;
+   
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-main-container {
+    display: flex;
+    flex: 1;
+}
+
+.menu {
+    width: 30%;
+    background-color: var(--cor-botao);
+    padding: 20px;
+}
+
+.main-container {
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape {
+    color: var(--cor-fundo);
+    background: var(--cor-hover);
+    padding: 1%;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-titulo {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tarefa-secao {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.tarefa-container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.filters button,
+.button-icon {
+    margin: 5px;
+    padding: 5px 15px 5px 10px;
+    cursor: pointer;
+    background-color: var(--cor-botao);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
